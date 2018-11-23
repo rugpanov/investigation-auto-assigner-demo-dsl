@@ -56,6 +56,6 @@ object Build : BuildType({
 
 object HttpsGithubComJetBrainsTeamcityInvestigations : GitVcsRoot({
     name = "https://github.com/rugpanov/teamcity-investigations-auto-assigner.git#refs/heads/master"
-    pollInterval = 10
+    pollInterval = 20
     url = "https://github.com/rugpanov/teamcity-investigations-auto-assigner.git"
 })
