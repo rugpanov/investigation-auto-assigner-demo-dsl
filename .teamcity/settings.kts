@@ -52,6 +52,11 @@ object Build : BuildType({
         vcs {
         }
     }
+
+    features {
+        investigationsAutoAssigner {
+        }
+    }
 })
 
 object HttpsGithubComJetBrainsTeamcityInvestigations : GitVcsRoot({
