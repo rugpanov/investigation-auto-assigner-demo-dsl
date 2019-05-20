@@ -53,8 +53,9 @@ object Build : BuildType({
         }
     }
 
+
     features {
-        InvestigationsAutoAssigner {
+        investigationsAutoAssigner {
         }
     }
 })
