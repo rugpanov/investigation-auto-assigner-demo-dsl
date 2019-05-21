@@ -38,7 +38,7 @@ object Build : BuildType({
         }
     }
     }
-})
+)
 
 object HttpsGithubComJetBrainsTeamcityInvestigations : GitVcsRoot({
     name = "https://github.com/rugpanov/teamcity-investigations-auto-assigner.git#refs/heads/master"
